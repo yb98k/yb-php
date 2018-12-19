@@ -5,14 +5,14 @@
  * Time: 15:19
  */
 
-namespace app\controllers;
+namespace App\controllers;
 
-//use Core\web\WebController; extends WebController
+use Yb\web\WebController;
 
-class HomeController
+class HomeController extends WebController
 {
 
     public function index() {
-        echo '1111';
+        echo '<p>111111</p>';
     }
 }

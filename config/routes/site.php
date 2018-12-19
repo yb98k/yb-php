@@ -7,6 +7,6 @@
 return [
     'routes' => [
         'test' => 'home/index',
-        'home/test' => 'home/test',
+        'home/test/{id}/{a}' => 'home/test',
     ]
 ];
